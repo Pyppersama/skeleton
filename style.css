@@ -116,16 +116,16 @@ nav .menu{
 		display:block;
 	}
 	
-	.nav-links{
-		position: absolute;
+		.nav-links{
+		position:fixed;
 		background:#f44336;
 		height:100vh;
-		width:200px;
+		width:0;
 		top:0;
-		right:-200px;
-		
+		right:0;
+		overflow-x:hidden;
 		z-index:2;
-		transition:1s;
+		transition:0.5s;
 	}
 	
 	nav .menu{
@@ -139,10 +139,10 @@ nav .menu{
 	}
 	
 	nav .exit{
+	position:absolute;
 	display:block;
 	height:40px;
 	width:40px;
-	color:white;
 	filter: opacity(0.3) drop-shadow(0 0 0 white);
 	margin:10px;
 	cursor:pointer;
