@@ -379,3 +379,38 @@ div .rating{
 		font-size:24px;
 	}
 }
+
+/* the styling of the contact us section*/
+.footer{
+	width:100%;
+	text-align:center;
+	padding:30px 0;
+}
+
+.footer h4{
+	margin-bottom:25px;
+	margin-top:20px;
+	font-weight:600;
+}
+
+.iconss .social{
+	height:19px;
+	width:19px;
+	margin:0 13px;
+	padding:18px 0;
+	cursor:pointer;
+}
+
+.iconss .socials{
+	height:25px;
+	width:25px;
+	margin:o 13px;
+	padding:18px 0;
+	cursor:pointer;
+}
+
+.footer .social{
+	height:22px;
+	width:22px;
+}
+
