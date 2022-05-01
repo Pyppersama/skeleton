@@ -360,3 +360,18 @@ div .rating{
 	margin-right:15px;
 	}
 }
+
+
+/* the styling of the contact us section*/
+
+.cta{
+	width:80%;
+}
+
+.cta h1{
+	color:#fff;
+	margin-bottom:40px;
+	padding:0;
+}
+
+
